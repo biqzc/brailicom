@@ -1,0 +1,59 @@
+def translate(character):
+    letter_val = 0
+    
+    if character.lower() == 'a':
+        letter_val = 1
+    elif character.lower() == 'b':
+        letter_val = 11
+    elif character.lower() == 'c':
+        letter_val = 12
+    elif character.lower() == 'd':
+        letter_val = 122
+    elif character.lower() == 'e':
+        letter_val = 192
+    elif character.lower() == 'f':
+        letter_val = 112
+    elif character.lower() == 'g':
+        letter_val = 1122
+    elif character.lower() == 'h':
+        letter_val = 1192
+    elif character.lower() == 'i':
+        letter_val = 911
+    elif character.lower() == 'j':
+        letter_val = 9122
+    elif character.lower() == 'k':
+        letter_val = 191
+    elif character.lower() == 'l':
+        letter_val = 111
+    elif character.lower() == 'm':
+        letter_val = 1912
+    elif character.lower() == 'n':
+        letter_val = 19122
+    elif character.lower() == 'o':
+        letter_val = 19192
+    elif character.lower() == 'p':
+        letter_val = 1112
+    elif character.lower() == 'q':
+        letter_val = 11122
+    elif character.lower() == 'r':
+        letter_val = 11192
+    elif character.lower() == 's':
+        letter_val = 9112
+    elif character.lower() == 't':
+        letter_val = 91122
+    elif character.lower() == 'u':
+        letter_val = 191992
+    elif character.lower() == 'v':
+        letter_val = 111992
+    elif character.lower() == 'w':
+        letter_val = 919222
+    elif character.lower() == 'x':
+        letter_val = 191292
+    elif character.lower() == 'y':
+        letter_val = 191222
+    elif character.lower() == 'z':
+        letter_val = 191922
+    return letter_val
+character = input('character goes here :')
+letter_val = translate(character)
+print(letter_val) 
